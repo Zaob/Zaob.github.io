@@ -140,27 +140,30 @@ transform: scale(0);
     margin-top: 5%;
 }
 
-.footerdiv {
-    padding-top: 50%;
-}
 
-footer {
-    position: relative;
+
+.footerdiv {
+    position: absolute;
+    padding-top: 82%;
+    z-index: -1;
 }
 
 footer .footerh1 {
     text-align: center;
+    font-size: 2.6vw;
 }
 footer .footerh2 {
     text-align: center;
+    font-size: 2.6vw;
 }
 footer .footerh3 {
     text-align: center;
+    font-size: 2.6vw;
 }
 footer .footerh4 {
     margin-top: 5%;
     text-align: center;
-    font-size: calc((1.2 - 1) * 1.2vw + 0.8rem);
+    font-size: 1.4vw;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -283,6 +286,45 @@ footer .footerh4 {
     }
 }
 
+@media (max-width: 1300px) {
+    .footerdiv {
+        padding-top: 110%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footerdiv {
+        padding-top: 130%;
+    }
+}
+
+@media (max-width: 830px) {
+    .footerdiv {
+        padding-top: 150%;
+    }
+}
+
+@media (max-width: 713px) {
+    .footerdiv {
+        padding-top: 165%;
+    }
+}
+
+@media (max-width: 645px) {
+    .footerdiv {
+        padding-top: 190%;
+    }
+}
+
+
+@media (max-width: 479px) {
+    .footerdiv {
+        padding-top: 270%;
+    }
+}
+
+
+
 @media (max-width: 1200px) {
     .foxedDiv .fistth1 {
         font-size: 2em;
@@ -298,10 +340,7 @@ footer .footerh4 {
         margin-top: 5%;
     }
 
-    footer {
-        position: absolute;
-        bottom: -85vh;
-    }
+    
     
 }
 
@@ -337,6 +376,10 @@ footer .footerh4 {
         margin-top: 5%;
     }
 
+    .footerdiv {
+        padding-top: 220%;
+    }
+
     .foxedDiv
 {
     display:none; 
@@ -365,6 +408,10 @@ footer .footerh4 {
         font-size: calc((1.2 - 1) * 1.2vh + 0.55rem);
         margin-top: 15%;
         margin-left: -10%;
+    }
+
+    .footerdiv {
+        padding-top: 310%;
     }
 
     .foxedDiv
@@ -458,36 +505,3 @@ footer .footerh4 {
     
 }
 
-@media (max-height: 1190px) {
-    footer {
-        position: absolute;
-        bottom: -105vh;
-    }
-}
-
-@media (max-height: 1150px) {
-    footer {
-        bottom: -125vh;
-    }
-}
-@media (max-height: 1200px) {
-    footer {
-        bottom: -105vh;
-    }
-}
-
-@media (max-height: 1200px) {
-    footer {
-        bottom: -105vh;
-    }
-}
-@media (max-height: 1200px) {
-    footer {
-        bottom: -105vh;
-    }
-}
-@media (max-height: 1200px) {
-    footer {
-        bottom: -105vh;
-    }
-}
