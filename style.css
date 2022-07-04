@@ -44,7 +44,7 @@ body {
 .heheprice{
     position: absolute;
     top: 18vh;
-    left: 50%;
+    left: 60%;
     transform:translate(-50%,-50%);
     padding: 1em 2em;
     text-transform: uppercase;
@@ -98,6 +98,70 @@ transform: scale(1);
 
 }
 .heheprice:hover:after{
+transition: transform 0.5s;
+transform-origin: bottom right;
+transform: scale(0);
+
+
+}
+
+.heheprice2{
+    position: absolute;
+    top: 18vh;
+    left: 40%;
+    transform:translate(-50%,-50%);
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    letter-spacing: 2px;
+    font-size: 20px;
+
+
+}
+.heheprice2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fc8284;
+    z-index: -1;
+    transition: transform 0.5s;
+transform-origin: bottom right;
+transform: scale(0);
+
+
+}
+.heheprice2:hover:before
+{
+    transition: transform 0.5s;
+    transform-origin: top left;
+transform: scale(1);
+
+
+}
+.heheprice2:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    
+    z-index: -1;
+    transition: transform 0.5s;
+transform-origin: top left;
+transform: scale(1);
+
+
+
+}
+.heheprice2:hover:after{
 transition: transform 0.5s;
 transform-origin: bottom right;
 transform: scale(0);
@@ -171,7 +235,6 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 22vh;
-        left: 50%;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
@@ -188,7 +251,6 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 26vh;
-        left: 50%;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
@@ -205,7 +267,6 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 32vh;
-        left: 50%;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
@@ -222,7 +283,6 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 38vh;
-        left: 50%;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
@@ -239,7 +299,6 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 44vh;
-        left: 50%;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
@@ -256,7 +315,6 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 55vh;
-        left: 50%;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
@@ -273,7 +331,168 @@ footer .footerh4 {
     .heheprice{
         position: absolute;
         top: 63vh;
-        left: 50%;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-width: 980px) {
+    .heheprice {
+        left: 65%;
+    }
+}
+
+@media (max-width: 709px) {
+    .heheprice {
+        left: 70%;
+    }
+}
+
+@media (max-width: 567px) {
+    .heheprice {
+        left: 75%;
+    }
+}
+
+@media (max-width: 465px) {
+    .heheprice {
+        left: 76%;
+    }
+}
+
+
+
+@media (max-width: 980px) {
+    .heheprice2 {
+        left: 35%;
+    }
+}
+
+@media (max-width: 709px) {
+    .heheprice2 {
+        left: 30%;
+    }
+}
+
+@media (max-width: 567px) {
+    .heheprice2 {
+        left: 28%;
+    }
+}
+
+@media (max-width: 465px) {
+    .heheprice2 {
+        left: 25%;
+    }
+}
+
+@media (max-height: 1065px) {
+    .heheprice2{
+        position: absolute;
+        top: 22vh;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-height: 810px) {
+    .heheprice2{
+        position: absolute;
+        top: 26vh;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-height: 670px) {
+    .heheprice2{
+        position: absolute;
+        top: 32vh;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-height: 570px) {
+    .heheprice2{
+        position: absolute;
+        top: 38vh;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-height: 460px) {
+    .heheprice2{
+        position: absolute;
+        top: 44vh;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-height: 390px) {
+    .heheprice2{
+        position: absolute;
+        top: 55vh;
+        transform:translate(-50%,-50%);
+        padding: 1em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        letter-spacing: 2px;
+        font-size: 20px;
+    
+    
+    }
+}
+
+@media (max-height: 315px) {
+    .heheprice2{
+        position: absolute;
+        top: 63vh;
         transform:translate(-50%,-50%);
         padding: 1em 2em;
         text-transform: uppercase;
