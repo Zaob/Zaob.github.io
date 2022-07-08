@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Archivo Black', sans-serif;
     color: white;
-    
 }
 
 body {
@@ -40,6 +39,21 @@ body {
     text-decoration: none;
     color: white;
 }
+
+#instalogo {
+    float: right;
+    height: 2em;
+    margin-right: 10%;
+    margin-top: -3%;
+} 
+
+#twitterlogo {
+    float: right;
+    height: 2em;
+    margin-right: 5%;
+    margin-top: -3%;
+} 
+
 
 .heheprice{
     position: absolute;
@@ -724,3 +738,12 @@ footer .footerh4 {
     
 }
 
+@media (max-width: 1183px) {
+    #twitterlogo {
+        margin-top: 1%;
+    }
+
+    #instalogo {
+        margin-top: 1%;
+    }
+}
