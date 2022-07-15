@@ -6,13 +6,18 @@
     color: white;
 }
 
+#marginTOpp {
+    margin-top: 3%;
+}
+
 #noBlue {
     color: white;
     text-decoration: none;
     border:0.2em solid white;
     padding: 0.1em;
     z-index: 8;
-    margin-left: 0.11em;
+    margin-left: 0;
+
 }
 
 #noBlue:hover {

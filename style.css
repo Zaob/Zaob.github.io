@@ -43,17 +43,30 @@ body {
 #instalogo {
     float: right;
     height: 2em;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -3%;
 } 
 
 #twitterlogo {
     float: right;
     height: 2em;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: -3%;
 } 
 
+#discordlogo {
+    float: right;
+    height: 2em;
+    margin-right: 15%;
+    margin-top: -3%;
+} 
+
+#telegramlogo {
+    float: right;
+    height: 2em;
+    margin-right: 20%;
+    margin-top: -3%;
+} 
 
 .heheprice{
     position: absolute;
@@ -738,12 +751,52 @@ footer .footerh4 {
     
 }
 
-@media (max-width: 1183px) {
+@media (max-width: 1200px) {
+    #twitterlogo {
+        margin-top: 0%;
+        margin-right: 5%;
+
+    }
+
+    #instalogo {
+        margin-top: 0%;
+        margin-right: 5%;
+
+    }
+
+    #discordlogo {
+        margin-top: 0%;
+        margin-right: 5%;
+
+    }
+
+    #telegramlogo {
+        margin-top: 0%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 930px) {
     #twitterlogo {
         margin-top: 1%;
+        margin-right: 5%;
+
     }
 
     #instalogo {
         margin-top: 1%;
+        margin-right: 5%;
+
+    }
+
+    #discordlogo {
+        margin-top: 1%;
+        margin-right: 5%;
+
+    }
+
+    #telegramlogo {
+        margin-top: 1%;
+        margin-right: 5%;
     }
 }
